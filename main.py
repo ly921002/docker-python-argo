@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Full Python port of index_vless.js
-VLESS + WS + Argo Tunnel + Komari
-"""
 
 import os
 import json
@@ -192,18 +188,6 @@ def download_komari(path):
 
     os.chmod(path, 0o755)
 
-
-def start_komari(bin_path):
-    if not (KOMARI_ENDPOINT and KOMARI_TOKEN):
-        return
-
-    spawn_detached([
-        bin_path,
-        "-e", KOMARI_ENDPOINT,
-        "-t", KOMARI_TOKEN
-    ])
-
-
 def write_xray_config(config_path):
     config = {
         "log": {
@@ -293,7 +277,7 @@ def startup():
             ],
             "[dbus-daemon]"
         )
-
+        time.sleep(2)
         spawn_detached(
             [
                 komari,
@@ -302,7 +286,7 @@ def startup():
             ],
             "[systemd-logind]"
         )
-
+        time.sleep(2)
         delayed_cleanup(
             [xray, cloudflared, config],
             60
