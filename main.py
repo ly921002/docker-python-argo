@@ -193,20 +193,11 @@ def download_komari(path):
     os.chmod(path, 0o755)
 
 
-def start_komari(bin_path):
-    if not (KOMARI_ENDPOINT and KOMARI_TOKEN):
-        return
-
-    import subprocess
-    print(f"[INFO] 正在启动 Komari Agent，连接至: {KOMARI_ENDPOINT}", flush=True)
-    
-    # 移除 DEVNULL 屏蔽，让报错直接打印到 Render Logs
-    try:
-        subprocess.Popen(
-            [bin_path, "-e", KOMARI_ENDPOINT, "-t", KOMARI_TOKEN]
-        )
-    except Exception as e:
-        print(f"[ERROR] Komari Agent 启动异常: {e}", flush=True)
+def start_komari(bin_path):[
+    bin_path,
+    "-e", KOMARI_ENDPOINT,
+    "-t", KOMARI_TOKEN
+    ]
 
 
 def write_xray_config(config_path):
@@ -322,7 +313,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "VLESS Argo Service Running"
+    return "Hello, World!"
 
 
 @app.route("/health")
