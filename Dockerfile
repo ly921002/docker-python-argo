@@ -11,7 +11,7 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 复制项目文件
-COPY main.py ./  # 你的 python 主文件
+COPY main.py ./main.py
 COPY public ./public
 
 EXPOSE 3000/tcp
