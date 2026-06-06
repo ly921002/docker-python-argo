@@ -1,6 +1,6 @@
 # 使用官方 Python 镜像
 FROM python:3.12-alpine
-
+RUN mkdir -p /app
 WORKDIR /app
 
 # 安装必要依赖
